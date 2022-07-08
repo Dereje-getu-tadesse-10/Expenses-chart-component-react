@@ -1,0 +1,6 @@
+.card{
+    padding: 25px;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: var(--pale-orange);
+}
