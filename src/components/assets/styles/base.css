@@ -15,7 +15,7 @@
     --pale-orange: hsl(33, 100%, 98%);
 
     /* font */
-    --font-family: 
+    --font-family: 'DM Sans', sans-serif; 
     --font-size: 18px;
     --font-weight-light: 400;
     --font-weight-bold: 700;
@@ -28,6 +28,7 @@
 
 html, body, #root{
     height: 100%;
+    font-family: var(--font-family);
     background-color: var(--cream);
 }
 

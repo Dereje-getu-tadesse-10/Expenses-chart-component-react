@@ -1,0 +1,10 @@
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.left h2{
+    font-size: 18px;
+    font-weight: var(--font-weight-light);
+}
