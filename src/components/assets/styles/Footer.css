@@ -25,3 +25,15 @@
 .footer-right p:nth-child(2){
     color: var(--medium-brown);
 }
+
+@media only screen and (max-width: 500px) {
+    .footer-left h1{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .footer-left h2, 
+    .footer-right h2 {
+        font-size: 1em;
+    }
+}
