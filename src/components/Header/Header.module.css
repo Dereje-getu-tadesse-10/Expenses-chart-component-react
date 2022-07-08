@@ -1,0 +1,11 @@
+header{
+    padding: 25px;
+    max-width: 470px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    border-radius: 15px;
+    color: white;
+    background-color: var(--soft-red);
+}
