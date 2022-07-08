@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html, body, #root{
+    height: 100%;
+}
+:root{
+    /* color */
+    --soft-red: hsl(10, 79%, 65%);
+    --cyan: hsl(186, 34%, 60%);
+    --dark-brown: hsl(25, 47%, 15%);
+    --medium-brown: hsl(28, 10%, 53%);
+    --cream: hsl(27, 66%, 92%);
+    --pale-orange: hsl(33, 100%, 98%);
+
+    /* font */
+    --font-family: 
+    --font-size: 18px;
+    --font-weight-light: 400;
+    --font-weight-bold: 700;
+
+    /* screen size */
+    --mobile: 375px;
+    --desktop: 1440px;
+}
