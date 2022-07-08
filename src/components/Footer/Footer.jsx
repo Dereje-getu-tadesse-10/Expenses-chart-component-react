@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <>
       <hr className={styles.hr}></hr>
-      <footer className={styles.footer}>
+      <footer className={styles.footerStyle}>
     
           <div className="footer-left">
               <h2>Total this month</h2>

@@ -5,7 +5,6 @@ import { Chart } from 'react-chartjs-2';
 import React from 'react'
 
 export const SetChart = ({days, amount}) => {
-    console.log(days);
 
     const data = {
         labels: days,

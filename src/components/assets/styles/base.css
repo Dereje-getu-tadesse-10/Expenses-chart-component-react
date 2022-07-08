@@ -27,9 +27,16 @@
 
 
 html, body, #root{
-    height: 100%;
+    height: 100vh;
     font-family: var(--font-family);
     background-color: var(--cream);
+}
+
+main{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 canvas{

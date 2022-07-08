@@ -7,9 +7,7 @@ import data from '../../data.json'
 export const Card = () => {
 
     const days = data.map(day => day.day)
-    console.log(days);
     const amount = data.map(day => day.amount)
-    console.log(amount);
 
     return (
         <div className={styles.card}>

@@ -3,7 +3,7 @@ import styles from './Header.module.css';
 
 export const Header = () => {
   return (
-    <header className={styles.header}>
+    <header className={styles.headerStyle}>
         <div className="left">
             <h2>My balance</h2>
             <h1>$921.48</h1>
