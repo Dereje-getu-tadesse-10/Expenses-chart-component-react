@@ -3,6 +3,7 @@ import { Footer } from '../../Footer/Footer'
 import 'chart.js/auto';
 import { Chart } from 'react-chartjs-2';
 
+
 export const Card = () => {
 
     const states = {
@@ -23,12 +24,67 @@ export const Card = () => {
         }]
     }
 
+    const options = {
+        legend: {
+            display: false
+        },
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+    
+
 
     return (
         <div className={styles.card}>
             <h1>Spending - Last 7 days</h1>
-            <Chart type='bar' data={states} />
+            <Chart type='bar' data={states} 
+            options={{
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    title: {
+                        display: false,
+                    },
+                    datalabels: {
+                        display: false
+                    }
+                },
+                yAxes: [{
+                    gridLines: {
+                        drawBorder: false,
+                    },
+                }],
+                scales:{
+                    x:{
+                        grid:{
+                            display:false,
+                            drawBorder:false,
+                            drawOnChartArea: false,
+                        }
+                    },
+                    y:{
+                        beginAtZero: true,
+                        ticks:{
+                            display:false
+                        },
+                        grid:{
+                            display: false,
+                            drawBorder:false,
+                            drawOnChartArea: true,
+                        }
+                    }
+                }
+            }}
+            />
             <Footer />
         </div>
     )
+
+
 }
